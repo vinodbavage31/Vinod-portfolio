@@ -3,7 +3,7 @@
 A modern, responsive personal portfolio website created to showcase my profile, skills, and work.  
 Built with a focus on performance, clean design, and maintainability.
 
-Live site: https://<your-project-name>.pages.dev  
+Live site: https://vinod-portfolio.pages.dev/  
 Source code: https://github.com/vinodbavage31/Vinod-portfolio
 
 ---
@@ -45,12 +45,10 @@ git clone https://github.com/vinodbavage31/Vinod-portfolio.git
 Navigate to the project directory 
 ```
 cd Vinod-portfolio
-
 ```
 Install dependencies
 ```
 npm install
-
 ```
 Start the development server
 
@@ -89,7 +87,7 @@ npm run preview
 
 ### About
 
-#### Vinod
+#### Vinod Bavage
 #### Frontend / Software Development Enthusiast
 
 ### This project represents my approach to building clean, scalable, and maintainable web interfaces.
