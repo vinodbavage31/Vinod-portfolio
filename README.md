@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# Vinod Portfolio
 
-## Project info
+A modern, responsive personal portfolio website created to showcase my profile, skills, and work.  
+Built with a focus on performance, clean design, and maintainability.
 
-**URL**: https://lovable.dev/projects/936ce329-e399-44e6-9e5c-704e54393cd5
+Live site: https://<your-project-name>.pages.dev  
+Source code: https://github.com/vinodbavage31/Vinod-portfolio
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Overview
 
-**Use Lovable**
+This portfolio is designed as a lightweight, fast-loading frontend application.  
+It follows modern frontend development practices and is suitable for continuous deployment.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/936ce329-e399-44e6-9e5c-704e54393cd5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+- Responsive layout for all screen sizes
+- Clean and minimal UI
+- Fast build and development workflow
+- Production-ready configuration
+- Global CDN delivery with HTTPS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technology Stack
 
-Follow these steps:
+- HTML
+- TypeScript
+- Vite
+- Tailwind CSS
+- npm
+- Git & GitHub
+- Cloudflare Pages
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Running the Project Locally
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Clone the repository
+```
+git clone https://github.com/vinodbavage31/Vinod-portfolio.git
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+Navigate to the project directory 
+```
+cd Vinod-portfolio
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```
+Install dependencies
+```
+npm install
+
+```
+Start the development server
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open the application in your browser:
+```
+http://localhost:5173
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Building for Production
+```
+npm run build
+```
+To preview the production build locally:
 
-**Use GitHub Codespaces**
+```
+npm run preview
+ ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+ Deployment:
 
-## What technologies are used for this project?
+1. This project is deployed using Cloudflare Pages.
 
-This project is built with:
+2. Deployment workflow:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Code is pushed to GitHub
 
-## How can I deploy this project?
+4. Cloudflare Pages installs dependencies
 
-Simply open [Lovable](https://lovable.dev/projects/936ce329-e399-44e6-9e5c-704e54393cd5) and click on Share -> Publish.
+5. The project is built using Vite
 
-## Can I connect a custom domain to my Lovable project?
+6. Static files are served from the dist directory
 
-Yes, you can!
+### About
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+#### Vinod
+#### Frontend / Software Development Enthusiast
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### This project represents my approach to building clean, scalable, and maintainable web interfaces.
