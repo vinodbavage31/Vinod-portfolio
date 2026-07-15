@@ -8,6 +8,9 @@ import AbcTechItsm from "./pages/AbcTechItsm";
 import RiceLeafDetection from "./pages/RiceLeafDetection";
 import NotFound from "./pages/NotFound";
 
+// ✅ ADD THIS
+import Chatbot from "./components/Chatbot";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -15,12 +18,15 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+
+      {/* ✅ CHATBOT (GLOBAL UI) */}
+      <Chatbot />
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/abc-tech-itsm" element={<AbcTechItsm />} />
           <Route path="/rice-leaf-detection" element={<RiceLeafDetection />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
