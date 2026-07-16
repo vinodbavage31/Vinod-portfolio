@@ -11,7 +11,7 @@ const Chatbot: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
 
   const sendMessage = async (msg: string) => {
-    const res = await fetch("http://localhost:8000/chat", {
+    const res = await fetch("http://localhost:8010/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
